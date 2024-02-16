@@ -3583,6 +3583,7 @@ fieldset:disabled .btn {
   color: #6222cc; /*here it is */
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
+    
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
@@ -3668,7 +3669,8 @@ fieldset:disabled .btn {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: #000 !important;
+  background-color:#FFE802; /*nav bar color*/
+  
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -3706,6 +3708,7 @@ fieldset:disabled .btn {
 .navbar-text {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  
 }
 .navbar-collapse {
   flex-basis: 100%;
@@ -6820,6 +6823,7 @@ fieldset:disabled .btn {
 }
 .text-white {
   color: black !important;/**changes*/
+  font-size: x-large;
 }
 .text-body {
   color: #726d7b !important;

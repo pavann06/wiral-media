@@ -639,5 +639,8 @@ h6,
     .floating-icons nav ul li a:hover span {
         display: inline-block; /* Show text on hover */
     }
-    
- 
+    #Image {
+        max-width: 175px; /* Set maximum width */
+        height: auto; /* Maintain aspect ratio */
+    }
+  
