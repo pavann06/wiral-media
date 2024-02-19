@@ -543,6 +543,7 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+  
 }
 @media (min-width: 576px) {
   .container,
@@ -1164,6 +1165,8 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
+    margin-top: 0;
+    
   }
   .col-lg-7 {
     flex: 0 0 auto;
@@ -8663,6 +8666,7 @@ fieldset:disabled .btn {
     padding-right: 3rem !important;
     padding-left: 3rem !important;
     color: #000 !important; /*changed*/
+    
   }
   .py-lg-0 {
     padding-top: 0 !important;
