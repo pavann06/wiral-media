@@ -718,3 +718,6 @@ h6,
 .footer-icons nav ul li a:hover {
     color: blue; /* Change color to blue on hover */
 }
+#footer-margin{
+    margin-top: 150px;
+}
