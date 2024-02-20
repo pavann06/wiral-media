@@ -5,7 +5,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 
 :root {
-    --primary: #FFE802  ;
+    --primary: #040404  ;
     --secondary: #4611A7;
     --light: #F6F4F9;
     --dark: #04000B;
@@ -59,6 +59,7 @@ h6,
 .btn {
     font-weight: 500;
     transition: .5s;
+     
 }
 
 .btn:hover {
@@ -181,7 +182,8 @@ h6,
     }
 
     .sticky-top.navbar-light .navbar-brand h1 {
-        color: var(--primary);
+        /* color: var(--secondary) #4611A7; */
+        color: #4611A7;
     }
 
     .navbar-light .navbar-nav .nav-item .dropdown-menu {
@@ -206,10 +208,10 @@ h6,
         background: #FFFFFF;
     }
 
-    /* .sticky-top.navbar-light .btn {
+    .sticky-top.navbar-light .btn {
         color: var(--dark);
         background: var(--secondary);
-    } */
+    }
 }
 
 
@@ -683,10 +685,12 @@ h6,
   }
   #nav-text{
     color: black !important;
+    padding-left:400px ;
   }
  #ggl{
     width: 30px;
     height: auto;
+    
  }
 #gvw{
     margin-top: 0;
@@ -720,4 +724,8 @@ h6,
 }
 #footer-margin{
     margin-top: 150px;
+}
+.navbar-scrolled .btn {
+    background-color: purple !important;
+    color: white;
 }
