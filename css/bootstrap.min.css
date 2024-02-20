@@ -6346,7 +6346,7 @@ fieldset:disabled .btn {
   margin-left: 3rem !important;
 }
 .mx-auto {
-  margin-right: auto !important;
+  /* margin-right: auto !important; */
   margin-left: auto !important;
 }
 .my-0 {
