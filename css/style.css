@@ -300,7 +300,7 @@ h6,
 .section-title.text-white span:last-child,
 .section-title.text-white span:first-child::after,
 .section-title.text-white span:last-child::after {
-    background: #FFFFFF;
+    background: black;
 }
 
 
