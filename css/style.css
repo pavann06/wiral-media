@@ -473,7 +473,18 @@ h6,
         center center;
     background-repeat: no-repeat;
 }
-
+@media (max-width: 430px) and (max-width: 1108px) {
+    .newsletter{
+       
+      margin-top: 120rem;
+    }
+}
+/* @media (max-width: 850px)and (max-width: 1108px) {
+    .newsletter{
+       
+      margin-top: 30rem;
+    }
+}  */
 
 /*** Testimonial ***/
 .testimonial-carousel .testimonial-item {
@@ -675,6 +686,7 @@ h6,
   }
   #para{
     font-family: lexend, Regular;
+    color: #04000B;
   }
   #heading{
     font-family: Lexend, Medium;
@@ -690,7 +702,7 @@ h6,
   }
   #nav-text{
     color: black !important;
-    padding-left:400px ;
+    padding-left:10px ;
   }
  #ggl{
     width: 30px;
@@ -751,3 +763,4 @@ h6,
     font-family: lexend, Regular;
     font-size: 13px;
   }
+  

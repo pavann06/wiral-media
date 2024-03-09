@@ -546,6 +546,7 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+   
   
 }
 @media (min-width: 576px) {
@@ -586,6 +587,8 @@ progress {
   .container-xl,
   .container-xxl {
     max-width: 1320px;
+    
+     
   }
 }
 .row {
@@ -596,6 +599,7 @@ progress {
   margin-top: calc(var(--bs-gutter-y) * -1);
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2);
+
 }
 .row > * {
   flex-shrink: 0;
@@ -3585,7 +3589,8 @@ fieldset:disabled .btn {
   list-style: none;
 }
 .nav-link {
-  display: block;
+  
+  
   padding: 0.5rem 1rem;
   color: #6222cc; /*here it is */
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
@@ -3737,6 +3742,7 @@ fieldset:disabled .btn {
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
     transition: none;
+  
   }
 }
 .navbar-toggler:hover {
