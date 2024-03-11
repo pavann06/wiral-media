@@ -369,14 +369,20 @@ h6,
     align-items: center;
     justify-content: center;
     color: var(--light);
-    background: url(../img/blob-primary.png) center center no-repeat;
+    background: url(../img/Rectangle\ 44836\ \(1\).svg) center center no-repeat;
     background-size: contain;
     transition: .5s;
 }
 
 .service-item:hover .service-icon {
     color: var(--dark);
-    background: url(../img/blob-secondary.png) center center no-repeat;
+    background: url(../img/Rectangle\ 44655\ \(1\).svg) center center no-repeat;
+    background-size: contain;
+}
+.service-item:hover .img {
+    color: var(--dark);
+
+    background: url(../img/google.svg) center center no-repeat;
     background-size: contain;
 }
 
@@ -458,7 +464,7 @@ h6,
 
 /*** Newsletter ***/
 .newsletter {
-    margin: 6rem 0;
+    margin: 1rem 0;
     background:
         url(../img/blob-top-left.png),
         url(../img/blob-top-right.png),
@@ -477,6 +483,7 @@ h6,
     .newsletter{
        
       margin-top: 120rem;
+      
     }
 }
 /* @media (max-width: 850px)and (max-width: 1108px) {
@@ -694,9 +701,9 @@ h6,
   #light{
     font-family: lexend, light;
   }
-  #test{
-    margin-top: 250px;
-  }
+  /* #test{
+    margin-top: 2px;
+  } */
   #about{
     margin-top: 100px;
   }
@@ -709,6 +716,10 @@ h6,
     height: auto;
     
  }
+ #ggl:hover {
+    
+    image: url(../img/google.svg);
+}
  #Write{
     font-family: Lexend, SemiBold;
  }
@@ -763,4 +774,14 @@ h6,
     font-family: lexend, Regular;
     font-size: 13px;
   }
-  
+  #Writes{
+    font-family: Lexend, SemiBold;
+    font-size: 46px;
+ }
+ #headings{
+    font-family: Lexend, Medium;
+    font-size: 32px;
+  }
+  #newsletter{
+    margin-top: 100px !important;
+  }

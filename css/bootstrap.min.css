@@ -2609,7 +2609,7 @@ fieldset:disabled .btn {
 }
 .btn-secondary:hover {
   color: #000;
-  background-color: #fcb32a;
+  background-color: white;
   border-color: #fbae1d;
 }
 .btn-check:focus + .btn-secondary,
@@ -8678,6 +8678,7 @@ fieldset:disabled .btn {
   .px-lg-5 {
     padding-right: 3rem !important;
     padding-left: 3rem !important;
+    padding-top: 3rem !important;
     color: #000 !important; /*changed*/
     
   }
